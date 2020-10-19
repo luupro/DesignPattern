@@ -2,7 +2,7 @@
 {
     class Application
     {
-        public void Main()
+        public void MainProcess()
         {
             Database foo = Database.GetInstance();
             foo.query("SELECT ...");

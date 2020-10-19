@@ -24,7 +24,7 @@ namespace DesignParttern.CreationalDP.FactoryMethod
         }
 
 
-        static void Main(string[] args)
+        public void MainProcess(string[] args)
         {
             Initialize();
             dialog.Render();

@@ -5,7 +5,7 @@ namespace DesignParttern.CreationalDP.AbstractFactory
     class ApplicationConfigurator
     {
 
-        public IGuiFactory Main()
+        public IGuiFactory MainProcess()
         {
             IGuiFactory factory;
             var config = readApplicationConfigFIle();
