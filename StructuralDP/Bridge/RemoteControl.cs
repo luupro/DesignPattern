@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignParttern.StructuralDP.Bridge
+﻿namespace DesignParttern.StructuralDP.Bridge
 {
     /// <summary>
     /// The "abstraction" defines the interface for the "control"
@@ -23,7 +19,7 @@ namespace DesignParttern.StructuralDP.Bridge
 
         public void TogglePower()
         {
-            if (device.IsEnable())
+            if (device.IsEnabled())
             {
                 device.Disable();
             }

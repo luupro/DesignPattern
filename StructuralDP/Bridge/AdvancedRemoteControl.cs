@@ -10,6 +10,11 @@ namespace DesignParttern.StructuralDP.Bridge
     /// </summary>
     public class AdvancedRemoteControl : RemoteControl
     {
+        public AdvancedRemoteControl(Device device)
+        {
+            this.device = device;
+        }
+
         public void Mute()
         {
             device.SetVolume(0);
