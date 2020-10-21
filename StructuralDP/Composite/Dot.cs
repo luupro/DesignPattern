@@ -6,7 +6,7 @@
     /// objects that do the actual work, while composite objects only
     /// delegate to their sub-components.
     /// </summary>
-    public class Dot : Graphic
+    public class Dot : IGraphic
     {
         public int X { get; set; }
         public int Y { get; set; }

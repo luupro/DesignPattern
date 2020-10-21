@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignParttern.StructuralDP.Bridge
 {
-    class Radio : Device
+    class Radio : IDevice
     {
         public void Disable()
         {

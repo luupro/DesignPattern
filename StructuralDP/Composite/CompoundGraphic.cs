@@ -8,31 +8,31 @@ namespace DesignParttern.StructuralDP.Composite
     /// have children. Composite objects usually deletegate the actual
     /// work to their children and then "sum up" the result.
     /// </summary>
-    class CompoundGraphic : Graphic
+    class CompoundGraphic : IGraphic
     {
-        public List<Graphic> Children { get; set; }
+        public List<IGraphic> Children { get; set; }
 
         /// <summary>
         /// A composite object can add or remove other components.
         /// ( both simple or complex) to or from its child list.
         /// </summary>
         /// <param name="child"></param>
-        public void Add(Graphic child)
+        public void Add(IGraphic child)
         {
             Children.Add(child);
         }
 
-        public void Add(List<Graphic> children)
+        public void Add(List<IGraphic> children)
         {
             Children.AddRange(children);
         }
 
-        public void Remove(Graphic child)
+        public void Remove(IGraphic child)
         {
             Children.Remove(child);
         }
 
-        public void Remove(List<Graphic> children)
+        public void Remove(List<IGraphic> children)
         {
             foreach (var child in children)
             {

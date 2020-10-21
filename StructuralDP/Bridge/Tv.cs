@@ -7,7 +7,7 @@ namespace DesignParttern.StructuralDP.Bridge
     /// <summary>
     /// All devices follow the same interface
     /// </summary>
-    class Tv : Device
+    class Tv : IDevice
     {
         public void Disable()
         {

@@ -8,11 +8,11 @@
     /// </summary>
     public class RemoteControl
     {
-        protected Device device;
+        protected IDevice device;
 
         public RemoteControl() { }
 
-        public RemoteControl(Device device)
+        public RemoteControl(IDevice device)
         {
             this.device = device;
         }

@@ -10,7 +10,7 @@ namespace DesignParttern.StructuralDP.Bridge
     /// </summary>
     public class AdvancedRemoteControl : RemoteControl
     {
-        public AdvancedRemoteControl(Device device)
+        public AdvancedRemoteControl(IDevice device)
         {
             this.device = device;
         }

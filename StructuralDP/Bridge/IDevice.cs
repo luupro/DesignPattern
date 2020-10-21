@@ -12,7 +12,7 @@ namespace DesignParttern.StructuralDP.Bridge
     /// provides only primitive operations, while the abstraction
     /// defines higher-level operations based on those primitives.
     /// </summary>
-    public interface Device
+    public interface IDevice
     {
         public bool IsEnabled();
         public void Enable();

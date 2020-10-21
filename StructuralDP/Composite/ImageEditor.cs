@@ -23,7 +23,7 @@ namespace DesignParttern.StructuralDP.Composite
         /// component.
         /// </summary>
         /// <param name="components"></param>
-        public void GroupSelected(List<Graphic> components)
+        public void GroupSelected(List<IGraphic> components)
         {
             var group = new CompoundGraphic();
             group.Add(components);
