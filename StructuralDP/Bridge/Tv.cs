@@ -19,27 +19,27 @@ namespace DesignParttern.StructuralDP.Bridge
             throw new NotImplementedException();
         }
 
-        public void GetChannel()
+        public int GetChannel()
         {
             throw new NotImplementedException();
         }
 
-        public void GetVolume()
+        public int GetVolume()
         {
             throw new NotImplementedException();
         }
 
-        public void IsEnabled()
+        public bool IsEnabled()
         {
             throw new NotImplementedException();
         }
 
-        public void SetChannel()
+        public void SetChannel(int channel)
         {
             throw new NotImplementedException();
         }
 
-        public void SetVolume()
+        public void SetVolume(int volume)
         {
             throw new NotImplementedException();
         }
