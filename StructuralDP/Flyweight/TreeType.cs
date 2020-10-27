@@ -11,7 +11,7 @@
     /// separate object which lots of individual tree objects can
     /// reference.
     /// </summary>
-    class TreeType
+    public class TreeType
     {
         public string Name { get; set; }
         public string Color { get; set; }
@@ -19,6 +19,10 @@
 
         public TreeType(string name, string color, string texture) { }
 
+        public void Draw(int x, int y)
+        {
+            throw new System.NotImplementedException();
+        } //params: canvas, x, y
 
     }
 }
